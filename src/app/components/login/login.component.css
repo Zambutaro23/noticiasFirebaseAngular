@@ -1,0 +1,46 @@
+.formulario {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.formulario input {
+    margin-top: 5%;
+}
+
+button {
+    width: 40%;
+    padding: 1em .3em;
+    margin: 5%;
+    background-color: #FF1D25;
+    color: #fff;
+    border: 0px;
+    border-radius: 30px;
+    transition: all .2s ease-in;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #FF1D25;
+    border: 1px solid #ff1d25;
+}
+
+#registro {
+    width: 40%;
+    padding: 1em .3em;
+    margin: 5%;
+    color: #FF1D25;
+    border:1px solid #FF1D25;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#registro:hover {
+    background-color: #ff1d25;
+    color: #fff;
+}
+
+.botones {
+    display: flex;
+    flex-flow: row wrap;
+}

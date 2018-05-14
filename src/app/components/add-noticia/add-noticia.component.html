@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">Add Task</span>
+    <form (ngSubmit)="onSubmit()" class="col s6">
+      <div class="row">
+        <div class="input-field col-s6">
+          <input type="text" placeholder="Añadir titulo" [(ngModel)]="noticia.titulo" name="titulo">
+        </div>
+        <div class="input-field col-s6">
+          <input type="text" placeholder="Añadir texto" [(ngModel)]="noticia.texto" name="texto">
+        </div>
+        <div class="input-field col-s6">
+          <input type="text" placeholder="Añadir imagen" [(ngModel)]="noticia.imagen" name="imagen">
+        </div>
+        <div class="input-field col-s6">
+            <input type="text" placeholder="Añadir fecha" [(ngModel)]="noticia.fecha" name="fecha">
+          </div>
+      </div>
+      <input type="submit" class="btn light-blue">
+    </form>
+  </div>
+</div>
